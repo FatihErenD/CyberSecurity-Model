@@ -1,0 +1,29 @@
+{
+  "ChatWebSite": {
+    "BIGVUL_PATH": "D:\\PycharmProjects\\AI\\CyberSecurity\\BigVul\\bigvul_test_balanced_1_to_2.jsonl",
+    "MEGAVUL_PATH": "D:\\PycharmProjects\\AI\\CyberSecurity\\Mega-Vul\\megavul\\2024-04\\c_cpp\\megavul_simple.json",
+    "MODELS_FENRIR": "D:\\PycharmProjects\\AI\\CyberSecurity\\Fenrir\\FinalModel",
+    "MODELS_QWEN": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "DEFAULT_MODEL_PATH": "D:\\PycharmProjects\\AI\\CyberSecurity\\Fenrir\\fenrir_qwen_finetuned\\fenrir-qwen-final"
+  },
+  "Training": {
+    "BigVul": {
+      "PREVIOUS_MODEL_PATH": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-bigvul-part5/qwen-code-final",
+      "OUTPUT_DIR": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-bigvul-part6",
+      "TRAIN_DATA_FILE": "/content/drive/MyDrive/bigvul_combined_balanced_1_to_2.jsonl",
+      "TEST_DATA_FILE": "/content/drive/MyDrive/bigvul_test_balanced_1_to_2.jsonl"
+    },
+    "CodeSearchNet": {
+      "OUTPUT_DIR": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints",
+      "DATA_FILE": "/content/drive/MyDrive/formatted_dataset.jsonl"
+    },
+    "Fenrir": {
+      "PREVIOUS_MODEL_PATH": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-fenrir/fenrir-qwen-final",
+      "OUTPUT_DIR": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-fenrir-part3"
+    },
+    "SecureCodeWeb": {
+      "PREVIOUS_MODEL_PATH": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-securecode/securecode-qwen-final",
+      "OUTPUT_DIR": "/content/drive/MyDrive/qwen-code-unsloth-checkpoints-securecode-part5"
+    }
+  }
+}
