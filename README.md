@@ -32,6 +32,10 @@ Eğitim süreçlerinin yanı sıra, projenin en önemli parçalarından biri Gra
 │   │   └── BigVulFilter.py     # Tokenizasyon, ChatML formatlama ve uzun metinleri filtreleme
 │   └── SecureCodeWeb/
 │       └── SecureCodeWebDatasetPrepare.py # ShareGPT formatını ChatML formatına dönüştürme
+├── Reports/                    # Proje Raporları ve Sunum Dosyaları
+│   ├── LLM_Vulnerability_Analysis_Secure_Coding_LoRA_Presentation.pptx
+│   ├── LLM_Vulnerability_Analysis_Secure_Coding_LoRA_Reports.docx
+│   └── LLM_Vulnerability_Analysis_Secure_Coding_LoRA_Reports.pdf
 └── README.md                   # Bu dosya (Proje Dokümantasyonu)
 ```
 
